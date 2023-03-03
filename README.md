@@ -119,7 +119,7 @@ $ python3 runtimes.py --max_x=22
 ```
 and copy/paste the resulting table into this README file below this line.
 
-| 2**x | timsort | merge_sorted | quick_sorted |
+| 2^x | timsort | merge_sorted | quick_sorted |
 -----|---------|------------|---------------|
 | 2^0 | 5.07e-06 | 5.68e-06 | 3.36e-06 |
 | 2^1 | 2.99e-06 | 1.21e-05 | 2.28e-05 |
@@ -237,7 +237,7 @@ Follow the instructions in the comments to provide a proper definition of `xs`,
 then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
 
-| timsort | merge_sorted | quick_sorted |
+| 2^x | timsort | merge_sorted | quick_sorted |
 | -------- | ------------- | ---------- |
 | 2**0 | 4.14e-06 | 3.35e-06 | 3.04e-06 |
 | 2**1 | 2.42e-06 | 1.02e-05 | 2.56e-05 |
